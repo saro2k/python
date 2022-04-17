@@ -1,0 +1,21 @@
+from xml.dom.minidom import Element
+#list is a mutable
+lst = [1, 2, 3]
+print(len(lst))
+print(max(lst))
+print(min(lst))
+lst.append(4)
+print(lst)
+lst.insert(0, 5)
+lst.extend([10, 20, 30])
+lst.remove(3)
+Element = lst.pop(3)
+print(lst)
+print(Element)
+lst.sort()
+print(lst)
+lst.sort(reverse=True)
+print(lst)
+Lst = list("saravanan")
+print(Lst)
+print(lst in Lst)
